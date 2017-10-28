@@ -3,7 +3,7 @@ service 'ntpd' do
 end
 
 package 'Intall tree' do
-    package_name 'ntp'
+    package_name 'tree'
     action :install
 end
 
